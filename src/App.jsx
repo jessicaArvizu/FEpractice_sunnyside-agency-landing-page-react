@@ -1,13 +1,18 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Navigation from './components/Navigation'
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
 
   return (
     <>
       <Header />
+      <div className="container py-4 px-3 mx-auto">
+        <h1>Hello, Bootstrap and Vite!</h1>
+        <button className="btn btn-primary">Primary button</button>
+      </div>
       <main>
         <body>
 
@@ -50,7 +55,7 @@ function App() {
           Contact
         </body>
       </main>
-      <Footer/>
+      <Footer />
     </>
   )
 }

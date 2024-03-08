@@ -12,9 +12,9 @@ export default function Navigation() {
                     <li><a href="#services">Services</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li>
-                        <button className="text-black bg-white py-[10px] px-5 rounded-full uppercase text-xs hover:text-white hover:bg-opacity-50 transition">
-                        Contact
-                    </button>
+                        <button>
+                            Contact
+                        </button>
                     </li>
                 </ul>
             </div>
